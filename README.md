@@ -34,7 +34,7 @@
 | connectome_tbl           |
 | motor_neurons_tbl        |
 +--------------------------+</pre>
-- Sample of the cns_neurons_tbl:
+- Sample of the cns_neurons_tbl: <pre>
 +------+------+
 | name | nid  |
 +------+------+
@@ -44,8 +44,8 @@
 | ADER |    3 |
 | ADFL |    4 |
 | ADFR |    5 |
-+------+------+
-- Sample of the motor_neurons_tbl:
++------+------+</pre>
+- Sample of the motor_neurons_tbl: <pre>
 +-------+------+
 | name  | nid  |
 +-------+------+
@@ -55,8 +55,8 @@
 | MDL04 |  303 |
 | MDL05 |  304 |
 | MDL06 |  305 |
-+-------+------+
-- Sample of the connectome_tbl:
++-------+------+</pre>
+- Sample of the connectome_tbl: <pre>
 +-------------+--------------+--------+
 | presynaptic | postsynaptic | weight |
 +-------------+--------------+--------+
@@ -66,7 +66,7 @@
 | ADAL        | AIBR         |      2 |
 | ADAL        | ASHL         |      1 |
 | ADAL        | AVAR         |      2 |
-+-------------+--------------+--------+
++-------------+--------------+--------+</pre>
 - `name`, `presynaptic`, `postsynaptic` fields are `VARCHAR` type, while `nid` and `weight` are `INT`
 ### Setting up the database
 - On Linux system after installing mysql (MariaDB): `mysql service start`
