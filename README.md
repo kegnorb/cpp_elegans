@@ -26,14 +26,14 @@
 
 ## Instructions
 ### Database Layout
-- cpp_elegans_db
+- cpp_elegans_db <pre>
 +--------------------------+
 | Tables_in_cpp_elegans_db |
 +--------------------------+
 | cns_neurons_tbl          |
 | connectome_tbl           |
 | motor_neurons_tbl        |
-+--------------------------+
++--------------------------+</pre>
 - Sample of the cns_neurons_tbl:
 +------+------+
 | name | nid  |
